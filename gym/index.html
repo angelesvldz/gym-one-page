@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FITNASE - Gimnasio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/miEstilo.css">
+</head>
+<body>
+
+  <div class="top-bar solo-desktop">
+    <div class="contenedor_principal d-flex justify-content-between py-2">
+      <span>Dirección: 430 E State St Lola, Wisconsin</span>
+      <span>Tel: 00 (05) 684 793 | fitnase@e-plugins.com</span>
+    </div>
+  </div>
+
+  <header>
+    <div id="logo">
+      <h1>FITNASE</h1>
+    </div>
+    <nav class="navPrincipal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#promociones">Promociones</a></li>
+        <li><a href="#galeria">Programas</a></li>
+        <li><a href="#catalogo" id="btn_destacado">Catálogo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="contenedor_principal">
+    <div class="tec">
+      <div class="tec_contenido">
+        <span class="subtitulo-naranja">DESDE - 1998</span>
+        <h2>MAKE YOUR BODY SHAPE</h2>
+        <p>Entrena con los mejores equipos y alcanza tu mejor versión física con nuestras rutinas especializadas.</p>
+        <a href="#galeria" id="btn_accion">Ver Programas</a>
+      </div>
+      <div class="imagen">
+        <img src="images/hero-gym.jpg" alt="Atleta entrenando">
+      </div>
+    </div>
+  </section>
+
+  <section id="promociones" class="seccion-oscura py-5">
+    <div class="contenedor_principal">
+      
+      <div class="alert alert-warning text-center fw-bold mb-5" role="alert">
+        ¡PROMOCIÓN DEL MES! Inscripción gratis al contratar cualquier plan trimestral.
+      </div>
+
+      <div class="row align-items-center g-4">
+        <div class="col-md-5 text-center">
+          <div class="circulo-promo">
+            <img src="images/entrenadores.jpg" alt="Entrenadores">
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <span class="subtitulo-naranja">NUESTROS BENEFICIOS</span>
+          <h2 class="titulo-seccion">¿POR QUÉ ELEGIRNOS?</h2>
+          
+          <div class="row g-3 mt-2">
+            <div class="col-6">
+              <div class="caja-beneficio">
+                <h3>PROGRESIÓN</h3>
+                <p>Medimos tus avances físicos cada mes.</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="caja-beneficio">
+                <h3>WORKOUT</h3>
+                <p>Rutinas de fuerza para todos los niveles.</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="caja-beneficio">
+                <h3>NUTRICIÓN</h3>
+                <p>Guía alimenticia incluida en tu plan.</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="caja-beneficio">
+                <h3>DEFENSA PERSONAL</h3>
+                <p>Clases grupales de artes marciales.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="galeria" class="py-5">
+    <div class="contenedor_principal">
+      <div class="text-center mb-4">
+        <span class="subtitulo-naranja">NUESTROS SERVICIOS</span>
+        <h2 class="titulo-seccion">TRAINING PROGRAMS</h2>
+      </div>
+
+      <div class="grid_cursos">
+        <article class="tarjeta_curso">
+          <img src="images/prog1.jpg" alt="Cardio Strength">
+          <div class="info_curso text-center">
+            <h3>CARDIO STRENGTH</h3>
+            <p>Resistencia cardiovascular y quema de calorías.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta_curso">
+          <img src="images/prog1.jpg" alt="Weight Lifting">
+          <div class="info_curso text-center">
+            <h3>WEIGHT LIFTING</h3>
+            <p>Entrenamiento de fuerza e hipertrofia muscular.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta_curso">
+          <img src="images/prog1.jpg" alt="Body Balance">
+          <div class="info_curso text-center">
+            <h3>BODY BALANCE</h3>
+            <p>Equilibrio, postura y control corporal.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta_curso solo-desktop">
+          <img src="images/prog1.jpg" alt="Muscle Stretching">
+          <div class="info_curso text-center">
+            <h3>MUSCLE STRETCHING</h3>
+            <p>Recuperación muscular y flexibilidad.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta_curso solo-desktop">
+          <img src="images/prog1.jpg" alt="Basic Yoga">
+          <div class="info_curso text-center">
+            <h3>BASIC YOGA</h3>
+            <p>Respiración y movilidad articular.</p>
+          </div>
+        </article>
+
+        <article class="tarjeta_curso solo-desktop">
+          <img src="images/prog1.jpg" alt="Beginner Pilates">
+          <div class="info_curso text-center">
+            <h3>BEGINNER PILATES</h3>
+            <p>Tonificación de bajo impacto.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalogo" class="seccion-oscura py-5">
+    <div class="contenedor_principal">
+      <div class="text-center mb-4">
+        <span class="subtitulo-naranja">TIENDA Y PLANES</span>
+        <h2 class="titulo-seccion">CATÁLOGO DE PRODUCTOS Y SERVICIOS</h2>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod1.jpg" alt="Producto 1">
+            <div class="p-3">
+              <span class="precio">$499</span>
+              <h4>1. Membresía Mensual</h4>
+            </div>
+          </div>
+        </div>
+         <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod2.jpg" alt="Producto 2">
+            <div class="p-3">
+              <span class="precio">$1,299</span>
+              <h4>2. Plan Trimestral</h4>
+            </div>
+          </div>
+        </div>
+         <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod3.jpg" alt="Producto 3">
+            <div class="p-3">
+              <span class="precio">$850</span>
+              <h4>3. Proteína Whey</h4>
+            </div>
+          </div>
+        </div>
+       <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod1.jpg" alt="Producto 4">
+            <div class="p-3">
+              <span class="precio">$520</span>
+              <h4>4. Creatina Pura</h4>
+            </div>
+          </div>
+        </div>
+       <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod2.jpg" alt="Producto 5">
+            <div class="p-3">
+              <span class="precio">$280</span>
+              <h4>5. Guantes Gym</h4>
+            </div>
+          </div>
+        </div>
+       <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod3.jpg" alt="Producto 6">
+            <div class="p-3">
+              <span class="precio">$650</span>
+              <h4>6. Cinturón Lumbar</h4>
+            </div>
+          </div>
+        </div>
+       <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod1.jpg" alt="Producto 7">
+            <div class="p-3">
+              <span class="precio">$180</span>
+              <h4>7. Shaker 700ml</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <div class="tarjeta_catalogo">
+            <img src="images/prod2.jpg" alt="Producto 8">
+            <div class="p-3">
+              <span class="precio">$900</span>
+              <h4>8. Coach Personal</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <section class="py-5">
+    <div class="contenedor_principal" style="max-width: 750px;">
+      <h2 class="titulo-seccion text-center mb-4">HORARIOS Y CAPACIDAD</h2>
+
+   
+      <p class="mb-1 fw-bold">Disponibilidad de cupo este mes (80% ocupado):</p>
+      <div class="progress mb-4" style="height: 25px;">
+        <div class="progress-bar bg-warning text-dark fw-bold" style="width: 80%;">
+          80% Lleno - ¡Últimos lugares!
+        </div>
+      </div>
+
+      <ul class="list-group">
+        <li class="list-group-item bg-dark text-white border-secondary d-flex justify-content-between">
+          <span>Lunes a Viernes</span>
+          <span class="fw-bold text-warning">6:00 AM - 10:00 PM</span>
+        </li>
+        <li class="list-group-item bg-dark text-white border-secondary d-flex justify-content-between">
+          <span>Sábados</span>
+          <span class="fw-bold text-warning">8:00 AM - 4:00 PM</span>
+        </li>
+        <li class="list-group-item bg-dark text-white border-secondary d-flex justify-content-between">
+          <span>Domingos</span>
+          <span class="text-secondary">Cerrado</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p class="mb-2">Síguenos en nuestras redes sociales:</p>
+    <div class="redes-sociales mb-3">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://youtube.com" target="_blank">YouTube</a>
+    </div>
+    <p class="mb-0">&copy; 2026 FITNASE Gym</p>
+  </footer>
+
+</body>
+</html>
